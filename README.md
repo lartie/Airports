@@ -1,5 +1,11 @@
 # Airports for Laravel 5
 
+[![Latest Stable Version](https://poser.pugx.org/lartie/airports/v/stable)](https://packagist.org/packages/lartie/airports)
+[![Total Downloads](https://poser.pugx.org/lartie/airports/downloads)](https://packagist.org/packages/lartie/airports)
+[![Latest Unstable Version](https://poser.pugx.org/lartie/airports/v/unstable)](https://packagist.org/packages/lartie/airports)
+[![License](https://poser.pugx.org/lartie/airports/license)](https://packagist.org/packages/lartie/airports)
+[![composer.lock](https://poser.pugx.org/lartie/airports/composerlock)](https://packagist.org/packages/lartie/airports)
+
 ## Install
 
 ```bash
