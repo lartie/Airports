@@ -3,6 +3,9 @@
 ## Install
 
 ```bash
+
+composer require lartie/airports
+
 php artisan vendor:publish
 
 php artisan migrate
