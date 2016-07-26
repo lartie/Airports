@@ -5,7 +5,7 @@
         "laravel", "airports", "iata", "icao"
     ],
     "type": "library",
-    "license": "MIT License",
+    "license": "MIT",
     "authors": [
         {
             "name": "Artie",
