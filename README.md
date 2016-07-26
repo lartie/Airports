@@ -3,9 +3,17 @@
 ## Install
 
 ```bash
-
 composer require lartie/airports
+```
 
+```php
+'providers' => [
+  ...
+  LArtie\Airports\AirportsServiceProvider::class,
+]
+```
+
+```bash
 php artisan vendor:publish
 
 php artisan migrate
