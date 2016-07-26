@@ -1,0 +1,25 @@
+{
+    "name": "lartie/airports",
+    "description": "Airports for Laravel",
+    "keywords": [
+        "laravel", "airports", "iata", "icao"
+    ],
+    "type": "library",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Artie",
+            "email": "log.wil.log@gmail.com",
+            "homepage": "https://artie.su/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.2.*",
+    },
+    "autoload": {
+        "psr-4": {
+            "LArtie\\Airports\\": "src/"
+        }
+    }
+}
