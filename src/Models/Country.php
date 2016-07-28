@@ -14,11 +14,6 @@ use Illuminate\Database\Eloquent\Model;
 class Country extends Model
 {
     /**
-     * @var string
-     */
-    protected $connection = 'flyinghigh';
-
-    /**
      * The attributes that are mass assignable.
      *
      * @var array
