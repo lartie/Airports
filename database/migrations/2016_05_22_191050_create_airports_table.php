@@ -12,7 +12,7 @@ class CreateAirportsTable extends Migration
      */
     public function up()
     {
-        Schema::connection('flyinghigh')->create('airports', function (Blueprint $table) {
+        Schema::create('airports', function (Blueprint $table) {
             $table->increments('id');
 
             $table->string('iata_code')->unique();
@@ -33,6 +33,6 @@ class CreateAirportsTable extends Migration
      */
     public function down()
     {
-        Schema::connection('flyinghigh')->drop('airports');
+        Schema::drop('airports');
     }
 }

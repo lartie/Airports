@@ -12,7 +12,7 @@ class CreateCountriesTable extends Migration
      */
     public function up()
     {
-        Schema::connection('flyinghigh')->create('countries', function (Blueprint $table) {
+        Schema::create('countries', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name_en')->unique();
             $table->string('name_ru')->nullable()->defaul(null);
@@ -29,6 +29,6 @@ class CreateCountriesTable extends Migration
      */
     public function down()
     {
-        Schema::connection('flyinghigh')->drop('countries');
+        Schema::drop('countries');
     }
 }
